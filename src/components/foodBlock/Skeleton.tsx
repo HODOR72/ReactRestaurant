@@ -6,8 +6,8 @@ export const Skeleton = () => (
 		width={325}
 		height={410}
 		viewBox='0 0 325 410'
-		backgroundColor='#494544'
-		foregroundColor='#504b4a'
+		backgroundColor='#504b4a'
+		foregroundColor='#494544'
 	>
 		<rect x='0' y='0' rx='5' ry='5' width='325' height='216' />
 		<rect x='21' y='244' rx='0' ry='0' width='127' height='27' />

@@ -8,8 +8,8 @@ const FullFoodBlockSkeleton: React.FC = () => (
 		width={1200}
 		height={400}
 		viewBox='0 0 1240 414'
-		backgroundColor='#b5b5b5'
-		foregroundColor='#bdbdbd'
+		backgroundColor='#504b4a'
+		foregroundColor='#494544'
 	>
 		<rect x='0' y='0' rx='5' ry='5' width='620' height='414' />
 		<rect x='670' y='18' rx='5' ry='5' width='165' height='34' />

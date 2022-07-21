@@ -37,16 +37,19 @@ const FullFoodBlock: React.FC = () => {
 	if (!foodBlock) {
 		return (
 			<>
-				<section className='full'>
-					<div className='container'>
+				<div className='container'>
+					<section className='full'>
 						<Link to='/' className='full__link'>
 							Вернуться назад
 						</Link>
 						{[...new Array(1)].map((_, index) => (
 							<FullFoodBlockSkeleton key={index} />
 						))}
-					</div>
-				</section>
+					</section>
+					<h1 className='mark-title food__title' key={id}>
+						С ЭТИМ ТОВАРОМ ПОКУПАЮТ
+					</h1>
+				</div>
 				<PopularFood />
 				<ContactsBlock />
 			</>
