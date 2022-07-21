@@ -1,0 +1,6 @@
+export { default as Header } from './Header'
+export { default as InfoBlock } from './InfoBlock'
+export { default as FoodBlock } from './foodBlock'
+export { default as PopularFood } from './PopularFood'
+export { default as ContactsBlock } from './ContactsBlock'
+export { default as Footer } from './Footer'

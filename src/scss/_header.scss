@@ -1,0 +1,110 @@
+.header {
+	background-color: #211f20;
+	width: 100%;
+	padding: 20px 0px;
+	z-index: 100;
+	position: fixed;
+}
+.header__navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 10px;
+}
+.header__logo {
+	margin-right: 30%;
+}
+.header__contacts {
+	position: relative;
+	&::after {
+		content: '';
+		position: absolute;
+		top: 5px;
+		left: -45px;
+		width: 32px;
+		height: 32px;
+		background: url('../assets/img/mobilePhone.svg') no-repeat center / cover;
+	}
+	span {
+		font-weight: 400;
+		font-size: 12px;
+	}
+}
+.header__text {
+	font-size: 19px;
+}
+.burger {
+	display: none;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 796px) {
+	.burger {
+		display: block;
+		position: relative;
+		height: 20px;
+		width: 30px;
+		z-index: 102;
+		cursor: pointer;
+
+		&.active-burger {
+			&:before {
+				background: #618967;
+				transform: rotate(45deg);
+				transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+				top: 8px;
+			}
+
+			&:after {
+				background: #618967;
+				transform: rotate(-45deg);
+				bottom: 10px;
+				transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+			}
+
+			& span {
+				transform: scale(0);
+			}
+		}
+
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			height: 2px;
+			width: 100%;
+			background: #618967;
+			transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+		}
+
+		&:before {
+			top: 0;
+		}
+
+		&::after {
+			bottom: 0;
+		}
+
+		span {
+			position: absolute;
+			top: 9px;
+			right: 0;
+			width: 100%;
+			background: #618967;
+			height: 2px;
+			transform: scale(1);
+			transition: cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s all;
+		}
+	}
+	.header__navbar {
+		justify-content: space-around;
+		padding: 0;
+	}
+	.header__logo {
+		margin-right: 0;
+	}
+	.header__contacts {
+		display: none;
+	}
+}
