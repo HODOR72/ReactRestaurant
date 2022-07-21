@@ -1,0 +1,261 @@
+[
+	{
+		"title": "Холодные закуски",
+		"id": "0",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_rxJJRpmr.jpg",
+		"name": "Ассорти зелени",
+		"weight": 100,
+		"description": "укроп, кинза, тархун, лук зеленый",
+		"price": 230
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "1",
+		"imageUrl": "https://carskiydvor.ru/uploads/s/a/u/v/auvbyfze9olq/img/full_2WRMSulN.jpg",
+		"name": "Буженина из говядины",
+		"weight": 200,
+		"description": "буженина, хрен, горчица",
+		"price": 490,
+		"popular": true
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "2",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_RmVoufH1.jpg",
+		"name": "Куриный рулет",
+		"weight": 100,
+		"description": "куриный рулет, хрен, горчица",
+		"price": 310
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "3",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_5K9LXgNs.jpg?quality=85&width=992&webp=1",
+		"name": "Кавказские сыры",
+		"weight": 200,
+		"description": "сулугуни, брынза",
+		"price": 360
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "4",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_bp6bmmNF.jpg?quality=85&width=992&webp=1",
+		"name": "Говяжий язык",
+		"weight": 100,
+		"description": "говяжий язык, хрен, горчица",
+		"price": 380
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "5",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_ldNztQqb.jpg?quality=85&width=992&webp=1",
+		"name": "Маринады",
+		"weight": 300,
+		"description": "капуста,стебель сельдерея, помидоры, шампиньоны",
+		"price": 390
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "6",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_o6U2xAOC.jpg?quality=85&width=992&webp=1",
+		"name": "Рыбное ассорти",
+		"weight": 300,
+		"description": "лосось, осетрина, масленая",
+		"price": 1690
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "7",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_6ecmGfMo.jpg?quality=85&width=992&webp=1",
+		"name": "Свежие овощи",
+		"weight": 460,
+		"description": "бакинаские помидоры, огурцы, редис",
+		"price": 520,
+		"popular": true
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "8",
+		"imageUrl": "https://carskiydvor.ru/uploads/s/a/u/v/auvbyfze9olq/img/full_DSCUQEto.jpg",
+		"name": "Пхали ассорти",
+		"weight": 120,
+		"description": "свекольный, шпинатовый, каперстный",
+		"price": 195
+	},
+	{
+		"title": "Холодные закуски",
+		"id": "9",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_fiZQTgXW.jpg?quality=85&width=992&webp=1",
+		"name": "Рулетики из баклажана",
+		"weight": 160,
+		"description": "жареные баклажаны, грецкий орех, луковая паста, сыр гауда, майонез",
+		"price": 260
+	},
+	{
+		"title": "блюда на углях",
+		"id": "10",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_vQJTRype.jpg?quality=85&width=1000&webp=1",
+		"name": "Шашлык из свиной шеи",
+		"weight": 180,
+		"description": "шашлык, морковь, капуста маринованная, томатный соус",
+		"price": 560
+	},
+	{
+		"title": "блюда на углях",
+		"id": "11",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_KnGHzuqI.jpg?quality=85&width=992&webp=1",
+		"name": "Шашлык из куриного филе",
+		"weight": 180,
+		"description": "шашлык, морковь, капуста маринованная, томатный соус",
+		"price": 410
+	},
+	{
+		"title": "блюда на углях",
+		"id": "12",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_LePqZQ9P.jpg?quality=85&width=992&webp=1",
+		"name": "Шашлык из телятины бастурма",
+		"weight": 180,
+		"description": "шашлык, морковь, капуста маринованная, томатный соус",
+		"price": 310,
+		"popular": true
+	},
+	{
+		"title": "блюда на углях",
+		"id": "13",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_7xyObI3r.jpg?quality=85&width=992&webp=1",
+		"name": "Телятина корейка",
+		"weight": 220,
+		"description": "(телятина, морковь, капуста маринованная, томатный  соус)",
+		"price": 950
+	},
+	{
+		"title": "блюда на углях",
+		"id": "14",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_ZUNpnqsN.jpg?quality=85&width=992&webp=1",
+		"name": "Цыпленок на углях",
+		"weight": 60,
+		"description": "(цыпленок, морковь, капуста маринованная, томатный  соус)",
+		"price": 570
+	},
+	{
+		"title": "блюда на углях",
+		"id": "15",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_O0i9ROyS.jpg?quality=85&width=992&webp=1",
+		"name": "Шашлык из бараньей мякоти",
+		"weight": 180,
+		"description": "шашлык, морковь, капуста маринованная, томатный соус",
+		"price": 660,
+		"popular": true
+	},
+	{
+		"title": "блюда на углях",
+		"id": "16",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_Qyue2CZJ.jpg?quality=85&width=992&webp=1",
+		"name": "Шашлык по-азербайджански",
+		"weight": 200,
+		"description": "шашлык, морковь, капуста маринованная, томатный соус",
+		"price": 820,
+		"popular": true
+	},
+	{
+		"title": "блюда на углях",
+		"id": "17",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_gM96CAEB.jpg?quality=85&width=992&webp=1",
+		"name": "Шашлык из лосося",
+		"weight": 180,
+		"description": "шашлык, морковь, капуста маринованная, соус ткемали и лимон",
+		"price": 1100
+	},
+	{
+		"title": "блюда на углях",
+		"id": "18",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_Sv2Mhy2Y.jpg?quality=85&width=992&webp=1",
+		"name": "Шашлык из осетрины",
+		"weight": 120,
+		"description": "шашлык, морковь, капуста маринованная, соус ткемали",
+		"price": 1420
+	},
+	{
+		"title": "блюда на углях",
+		"id": "19",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_kxYyGIA1.jpg?quality=85&width=992&webp=1",
+		"name": "Люля-кебаб из баранины",
+		"weight": 200,
+		"description": "подается  с маринованной морковью, капустой,  томатным соусом",
+		"price": 680
+	},
+	{
+		"title": "супы",
+		"id": "20",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_lhNlBJB2.jpg?quality=85&width=992&webp=1",
+		"name": "Борщ с говядиной",
+		"weight": 350,
+		"description": "говяжья мякоть, овощи",
+		"price": 360
+	},
+	{
+		"title": "супы",
+		"id": "21",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_Ct72u2AT.jpg?quality=85&width=992&webp=1",
+		"name": "Дюшбара со свежим кориандром",
+		"weight": 300,
+		"description": "тесто, фарш бараний, свежий кориандр",
+		"price": 380
+	},
+	{
+		"title": "супы",
+		"id": "22",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_slbDwXIu.jpg?quality=85&width=992&webp=1",
+		"name": "Крем-суп с копченым лососем",
+		"weight": 300,
+		"description": "крем суп, соус песто",
+		"price": 490
+	},
+	{
+		"title": "супы",
+		"id": "23",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_BSmCYvVd.jpg?quality=85&width=992&webp=1",
+		"name": "Кюфта с нутом",
+		"weight": 300,
+		"description": "фарш бараний, нут,картофель",
+		"price": 380,
+		"popular": true
+	},
+	{
+		"title": "супы",
+		"id": "24",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_U9ZZqe0Q.jpg?quality=85&width=992&webp=1",
+		"name": "Пити с бараньей мякотью",
+		"weight": 300,
+		"description": "мякоть баранины, курдюк, нут",
+		"price": 480
+	},
+	{
+		"title": "супы",
+		"id": "25",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_nZHa8kLJ.jpg?quality=85&width=992&webp=1",
+		"name": "Том-ям",
+		"weight": 300,
+		"description": "креветки тигровые, шампиньоны, помидор, паста для том-яма, кокосовое молоко, рыбный бульон",
+		"price": 530,
+		"popular": true
+	},
+	{
+		"title": "супы",
+		"id": "26",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_28HP4Oj8.jpg?quality=85&width=992&webp=1",
+		"name": "Уха по-царски",
+		"weight": 300,
+		"description": "лосось осетрины, креветки, судак, помидоры черри, рыбный бульон",
+		"price": 560
+	},
+	{
+		"title": "супы",
+		"id": "27",
+		"imageUrl": "https://carskiydvor.ru/__scale/uploads/s/a/u/v/auvbyfze9olq/img/full_hAYqiU2h.jpg?quality=85&width=992&webp=1",
+		"name": " Харчо с говядиной",
+		"weight": 300,
+		"description": "говяжья мякоть, рис, помидор, чеснок",
+		"price": 380
+	}
+]
