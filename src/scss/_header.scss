@@ -4,6 +4,7 @@
 	padding: 20px 0px;
 	z-index: 100;
 	position: fixed;
+	
 }
 .header__navbar {
 	display: flex;
@@ -11,6 +12,11 @@
 	align-items: center;
 	width: 100%;
 	padding: 0 10px;
+	.button-cart{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
 }
 .header__logo {
 	margin-right: 30%;

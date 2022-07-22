@@ -1,12 +1,11 @@
 import React from 'react'
 import axios from 'axios'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { useAppDispatch } from '../../redux/store'
-import { ContactsBlock } from '../../components'
-import { PopularFood } from '../../components'
-import { addItem } from '../../redux/slices/cartSlice'
-import FullFoodBlockSkeleton from './FullFoodBlockSkeleton'
-import { foodBlockT } from '../../components/types'
+import { useAppDispatch } from '../redux/store'
+import { ContactsBlock } from '../components'
+import { PopularFood } from '../components'
+import { addItem } from '../redux/slices/cartSlice'
+import { foodBlockT } from '../components/types'
 
 const FullFoodBlock: React.FC = () => {
 	const navigate = useNavigate()
@@ -43,7 +42,7 @@ const FullFoodBlock: React.FC = () => {
 							Вернуться назад
 						</Link>
 						{[...new Array(1)].map((_, index) => (
-							<FullFoodBlockSkeleton key={index} />
+							<div className='full__block'></div>
 						))}
 					</section>
 					<h1 className='mark-title food__title' key={id}>
@@ -64,18 +63,23 @@ const FullFoodBlock: React.FC = () => {
 					</Link>
 					<div className='full__block'>
 						<div className='full__block-pic'>
-							<img src={foodBlock.imageUrl} alt='foodBlock-img' />
+							<img
+								src={foodBlock.imageUrl}
+								alt='foodBlock-img'
+								className='full__block-img'
+							/>
 						</div>
 						<div className='full__block-info'>
+							<div className='food__count'></div>
 							<div className='full__block-description'>
 								<h1 className='full__title'>{foodBlock.name}</h1>
 								<p className='gray-text full__text'>{foodBlock.description}</p>
 							</div>
 							<p className='white-text full__text'>Вес: {foodBlock.weight}г</p>
 							<div className='full__buy'>
-								<a href='##' className='button-buy' onClick={addToCart}>
+								<button className='button-buy' onClick={addToCart}>
 									В корзину
-								</a>
+								</button>
 								<p className='full__price'>{foodBlock.price} ₽</p>
 							</div>
 							<div className='full__carts'>

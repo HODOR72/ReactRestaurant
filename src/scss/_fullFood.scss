@@ -29,13 +29,14 @@
 	}
 }
 .full__block {
+	min-height: 400px;
 	border-radius: 10px;
 	display: flex;
 	align-items: center;
 	background: linear-gradient(90deg, #494544 0%, #504b4a 100%);
 	margin: 0 10px;
 }
-.full__block-pic img {
+.full__block-img {
 	height: 414px;
 	object-fit: cover;
 	border-radius: 10px 0 0 10px;
@@ -77,7 +78,11 @@
 }
 @media screen and(max-width: 996px) {
 	.full__block {
-		&-pic img {
+		min-height: 600px;
+		max-width: 600px;
+		margin: 0 auto;
+		flex-direction: column;
+		&-img {
 			height: auto;
 			width: 100%;
 			border-radius: 10px 10px 0 0;
@@ -89,9 +94,6 @@
 		&-description {
 			margin-bottom: 0px;
 		}
-		max-width: 600px;
-		margin: 0 auto;
-		flex-direction: column;
 	}
 	.full__buy {
 		justify-content: center;
@@ -102,6 +104,7 @@
 }
 @media screen and(max-width: 620px) {
 	.full__block {
+		min-height: 450px;
 		margin: 0 10px;
 	}
 }
