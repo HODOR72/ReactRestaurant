@@ -26,14 +26,13 @@ const Header: React.FC = () => {
 
 	const activateBurger = () => {
 		dispatch(setActiveBurger(!activeBurger))
-		if (!activeBurger) document.body.style.overflow = 'hidden'
-		else document.body.style.overflow = 'visible'
+		document.body.classList.toggle('locked')
 	}
 
 	const closeBurger = () => {
 		window.scrollTo(0, 0)
 		dispatch(setActiveBurger(false))
-		document.body.style.overflow = 'visible'
+		document.body.classList.remove('locked')
 	}
 
 	return (

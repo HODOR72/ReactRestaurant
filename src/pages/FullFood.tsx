@@ -42,7 +42,7 @@ const FullFoodBlock: React.FC = () => {
 							Вернуться назад
 						</Link>
 						{[...new Array(1)].map((_, index) => (
-							<div className='full__block'></div>
+							<div className='full__block' key={index}></div>
 						))}
 					</section>
 					<h1 className='mark-title food__title' key={id}>
@@ -50,7 +50,6 @@ const FullFoodBlock: React.FC = () => {
 					</h1>
 				</div>
 				<PopularFood />
-				<ContactsBlock />
 			</>
 		)
 	}
@@ -70,7 +69,6 @@ const FullFoodBlock: React.FC = () => {
 							/>
 						</div>
 						<div className='full__block-info'>
-							<div className='food__count'></div>
 							<div className='full__block-description'>
 								<h1 className='full__title'>{foodBlock.name}</h1>
 								<p className='gray-text full__text'>{foodBlock.description}</p>

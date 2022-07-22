@@ -1,5 +1,8 @@
 body {
 	&.locked {
+		position: relative;
+		height: 100%;
+		width: 100%;
 		overflow: hidden;
 	}
 }
@@ -44,10 +47,10 @@ body {
 	background: linear-gradient(114.93deg, #618967 5.11%, #72a479 94%);
 	text-align: center;
 	padding: 15px;
-	width: 160px;
+	width: 140px;
 	span {
 		position: relative;
-		padding-left: 35px;
+		padding-left: 28px;
 		z-index: 1;
 		&::before {
 			content: '';
