@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ReactRestaurant/static/css/main.35d33df8.css",
-    "main.js": "/ReactRestaurant/static/js/main.1da11482.js",
+    "main.css": "/ReactRestaurant/static/css/main.d900294b.css",
+    "main.js": "/ReactRestaurant/static/js/main.d47b13e0.js",
     "static/js/965.c1c138d2.chunk.js": "/ReactRestaurant/static/js/965.c1c138d2.chunk.js",
     "static/js/949.6ba2f720.chunk.js": "/ReactRestaurant/static/js/949.6ba2f720.chunk.js",
-    "static/js/196.8daa09fd.chunk.js": "/ReactRestaurant/static/js/196.8daa09fd.chunk.js",
+    "static/js/354.a6b826f5.chunk.js": "/ReactRestaurant/static/js/354.a6b826f5.chunk.js",
     "static/media/map.png": "/ReactRestaurant/static/media/map.e4bfba718200b9ca0f0c.png",
     "static/media/info-bg.png": "/ReactRestaurant/static/media/info-bg.bc5c7269965de11c7105.png",
     "static/media/header-bg.jpg": "/ReactRestaurant/static/media/header-bg.5a5a1709d9f7fb6348b1.jpg",
@@ -25,14 +25,14 @@
     "static/media/Message.svg": "/ReactRestaurant/static/media/Message.e8677a59d6514436f77a.svg",
     "static/media/facebook.svg": "/ReactRestaurant/static/media/facebook.ed3829ba7c0fba83e52e95bbc98700a4.svg",
     "index.html": "/ReactRestaurant/index.html",
-    "main.35d33df8.css.map": "/ReactRestaurant/static/css/main.35d33df8.css.map",
-    "main.1da11482.js.map": "/ReactRestaurant/static/js/main.1da11482.js.map",
+    "main.d900294b.css.map": "/ReactRestaurant/static/css/main.d900294b.css.map",
+    "main.d47b13e0.js.map": "/ReactRestaurant/static/js/main.d47b13e0.js.map",
     "965.c1c138d2.chunk.js.map": "/ReactRestaurant/static/js/965.c1c138d2.chunk.js.map",
     "949.6ba2f720.chunk.js.map": "/ReactRestaurant/static/js/949.6ba2f720.chunk.js.map",
-    "196.8daa09fd.chunk.js.map": "/ReactRestaurant/static/js/196.8daa09fd.chunk.js.map"
+    "354.a6b826f5.chunk.js.map": "/ReactRestaurant/static/js/354.a6b826f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35d33df8.css",
-    "static/js/main.1da11482.js"
+    "static/css/main.d900294b.css",
+    "static/js/main.d47b13e0.js"
   ]
 }
