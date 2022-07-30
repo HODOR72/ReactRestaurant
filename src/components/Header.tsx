@@ -12,7 +12,6 @@ const Header: React.FC = () => {
 	const allPurchase = useSelector(getItems)
 	const activeBurger = useSelector(getActiveBurger)
 	const body = document.body
-	let scrollPosition = 0
 	React.useEffect(() => {
 		if (isMounted.current) {
 			const json = JSON.stringify(allPurchase)
@@ -29,10 +28,8 @@ const Header: React.FC = () => {
 	const activateBurger = () => {
 		dispatch(setActiveBurger(!activeBurger))
 
-		scrollPosition = window.pageYOffset
 		body.style.overflow = 'hidden'
 		body.style.position = 'fixed'
-		body.style.top = `-${scrollPosition}px`
 		body.style.width = '100%'
 	}
 
@@ -43,7 +40,6 @@ const Header: React.FC = () => {
 		body.style.removeProperty('position')
 		body.style.removeProperty('top')
 		body.style.removeProperty('width')
-		window.scrollTo(0, scrollPosition)
 	}
 
 	return (
@@ -52,7 +48,7 @@ const Header: React.FC = () => {
 				<nav className='header__navbar menu'>
 					<div
 						className={`burger ${activeBurger ? 'active-burger' : ''}`}
-						onClick={activateBurger}
+						onClick={!activeBurger ? activateBurger : closeBurger}
 					>
 						<span></span>
 					</div>
