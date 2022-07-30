@@ -11,6 +11,8 @@ const Header: React.FC = () => {
 	let isMounted = React.useRef(false)
 	const allPurchase = useSelector(getItems)
 	const activeBurger = useSelector(getActiveBurger)
+	const body = document.body
+	let scrollPosition = 0
 	React.useEffect(() => {
 		if (isMounted.current) {
 			const json = JSON.stringify(allPurchase)
@@ -26,13 +28,22 @@ const Header: React.FC = () => {
 
 	const activateBurger = () => {
 		dispatch(setActiveBurger(!activeBurger))
-		document.body.classList.toggle('locked')
+
+		scrollPosition = window.pageYOffset
+		body.style.overflow = 'hidden'
+		body.style.position = 'fixed'
+		body.style.top = `-${scrollPosition}px`
+		body.style.width = '100%'
 	}
 
 	const closeBurger = () => {
-		window.scrollTo(0, 0)
 		dispatch(setActiveBurger(false))
-		document.body.classList.remove('locked')
+
+		body.style.removeProperty('overflow')
+		body.style.removeProperty('position')
+		body.style.removeProperty('top')
+		body.style.removeProperty('width')
+		window.scrollTo(0, scrollPosition)
 	}
 
 	return (
